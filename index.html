@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Dolphin DB Deploy Kit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DolphinDB Node Management">
+    <meta name="author" content="DolphinDB">
+
+    <!-- Le styles -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom-theme/jquery-ui-1.10.3.custom.css">
+    <!--<link rel="stylesheet" href="css/custom-theme/jquery-ui-1.10.3.theme.css">-->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <!--[if IE 7]>
+    <link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css">
+    <![endif]-->
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" href="css/custom-theme/jquery.ui.1.10.3.ie.css">
+    <![endif]-->
+    <link rel="stylesheet" href="assets/css/docs.css">
+    <link rel="stylesheet" href="assets/js/google-code-prettify/prettify.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/vendor/html5shiv.js" type="text/javascript"></script>
+      <script src="assets/js/vendor/respond.min.js" type="text/javascript"></script>
+    <![endif]-->
+    <!-- Le fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="assets/ico/logo.png">
+
+    <!-- jqGrid-->
+    <link rel="stylesheet" href="third-party/jqGrid/jqGrid/css/ui.jqgrid.css" />
+    <link rel="stylesheet" href="third-party/jqGrid/jqGrid.overrides.css">
+    <!-- end jqGrid -->
+<style>
+.navServer{
+    padding-top: 20px;
+}
+</style>
+
+</head>
+
+
+<body data-spy="scroll" data-target=".bs-docs-sidebar" data-twttr-rendered="true">
+
+    <!-- Navbar
+    ================================================== -->
+    <header class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+                <a class="navbar-brand" href="http://www.dolphindb.com">DolphinDB Deploy Kit</a>
+            </div>
+            <nav class="navbar-collapse collapse navbar-right">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="./add.html">Connect central Server</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container" id="layout">
+        <!-- Docs nav ================================================== -->
+        <div class="row">
+            <div class="col-lg-3 col-sm-3" id="sidebar">
+                <div class="bs-sidebar hidden-print" role="complementary">
+                    <ul class="nav bs-sidenav">
+                        <li>
+                            <a href="###" class="navServer"><i class="icon-chevron-right"></i>all physical servers</a>
+                            <ul>
+                                <li><a href="###" class="navServer">localhost:8080</a></li>
+                                <li><a href="###" class="navServer">192.168.100.13:8080</a></li>
+                                <li><a href="###" class="navServer">192.168.100.15:8080</a></li>
+                                <li><a href="###" class="navServer">192.168.100.13:8080</a></li>
+                                <li><a href="###" class="navServer">192.168.100.15:8080</a></li>
+                                <li><a href="###" class="navServer">192.168.100.13:8080</a></li>
+                                <li><a href="###" class="navServer">192.168.100.15:8080</a></li>
+                                <li><a href="###" class="navServer">192.168.100.13:8080</a></li>
+                                <li><a href="###" class="navServer">192.168.100.15:8080</a></li>
+                                <li><a href="###" class="navServer">192.168.100.13:8080</a></li>
+                                <li><a href="###" class="navServer">192.168.100.15:8080</a></li>
+                                <li><a href="###" class="navServer">192.168.100.13:8080</a></li>
+                                <li><a href="###" class="navServer">192.168.100.15:8080</a></li>
+                                <li><a href="###" class="navServer">192.168.100.13:8080</a></li>
+                                <li><a href="###" class="navServer">192.168.100.15:8080</a></li>
+                                <li><a href="###" class="navServer">192.168.100.15:8080</a></li>
+                                <li><a href="###" class="navServer">192.168.100.13:8080</a></li>
+                                <li><a href="###" class="navServer">192.168.100.15:8080</a></li>
+                                <li><a href="###" class="navServer">192.168.100.13:8080</a></li>
+                                <li><a href="###" class="navServer">192.168.100.15:8080</a></li>
+                                <li><a href="###" class="navServer">192.168.100.13:8080</a></li>
+                                <li><a href="###" class="navServer">192.168.100.15:8080</a></li>
+                                <li><a href="###" class="navServer">192.168.100.13:8080</a></li>
+                                <li><a href="###" class="navServer">192.168.100.15:8080</a></li>
+                                <li><a href="###" class="navServer">192.168.100.13:8080</a></li>
+                                <li><a href="###" class="navServer">192.168.100.15:8080</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-9 col-sm-9" id="main">
+                <div class="page-header">
+                    <h3><span id="serverName"></span></h3>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="btn-toolbar" role="toolbar" aria-label="...">
+                            <div class="btn-group" role="group" aria-label="...">
+                                <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-play"></span></button>
+                                <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-stop"></span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <table id="jqgrid1"></table>
+                    <div id="jqGridPager01"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer
+================================================== -->
+    <footer class="bs-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-sm-12">
+                   <ul class="list-unstyled">
+                        <li>CopyRight &copy; <strong class="text-info">DolphinDB</strong> 2016 - 2017.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/vendor/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="assets/js/vendor/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+    <script src="assets/js/vendor/bootstrap.js" type="text/javascript"></script>
+    <script src="assets/js/vendor/holder.js" type="text/javascript"></script>
+    <script src="assets/js/vendor/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+    <script src="assets/js/google-code-prettify/prettify.js" type="text/javascript"></script>
+    <script src="assets/js/docs.js" type="text/javascript"></script>
+    <script src="assets/js/demo.js" type="text/javascript"></script>
+    <script src="third-party/jqGrid/jqGrid/js/i18n/grid.locale-en.js" type="text/javascript"></script>
+    <script src="third-party/jqGrid/jqGrid/js/jquery.jqGrid.min.js" type="text/javascript"></script>
+</body>
+<script type="text/javascript">
+    var currentServer = $(".navServer").first().text();
+    $("#serverName").text(currentServer);
+
+    var nodelist = [];
+
+    for(var i=0;i<1000;i++){
+        nodelist.push({ ID: 'local' + i.toString(), Name: 'DBNode' + i.toString(), IP: '192.168.100.133', Port: 8000 + i, Status: (i%2==0)?"running":"stopped", CPU: 0.4, MemoryUsed: "3.4G", MaxMemory: "8G" });
+    }
+
+    $(function () {
+        $("#jqgrid1").jqGrid(
+            {
+                data: nodelist,
+                datatype: "local",
+                height: 400,
+                rowNum: 10,
+                rowList: [10, 20, 30],
+                colNames: ['ID', 'Name', 'IP', 'Port', 'Status', 'CPU utility', 'MemoryUsed', 'MaxMemory'],
+                colModel: [
+                    { name: 'ID', index: 'ID', width: 80 },
+                    { name: 'Name', index: 'Name' },
+                    { name: 'IP', index: 'IP', width: 120 },
+                    { name: 'Port', index: 'Port', width: 80 },
+                    { name: 'Status', index: 'Status', width: 80 },
+                    { name: 'CPU', index: 'CPU utility', width: 80 },
+                    { name: 'MemoryUsed', index: 'MemoryUsed', width: 100 },
+                    { name: 'MaxMemory', index: 'MaxMemory', width: 100 }
+                ],
+                scroll:true,
+                autowidth: true,
+                shrinkToFit: true,
+                sortable: false,
+                pages: "#jqGridPager01",
+                viewrecords: true,
+                caption: "Node List",
+                hidegrid: false,
+                altRows: true
+            });
+
+    });
+    $(".navServer").click(function () {
+        $("#serverName").text($(this).text());
+    });
+
+</script>
+<script id="maintpl" type="text/x-jquery-tmpl">
+    <div style="margin-bottom:10px;">
+        <span>${ID}</span>
+        <span style="margin-left:10px;">{{= Name}}</span>
+        <span style="margin-left:10px;">${Number(Num)+1}</span>
+        <span style="margin-left:10px;">${Status}</span>
+    </div>
+</script>
+
+</html>
